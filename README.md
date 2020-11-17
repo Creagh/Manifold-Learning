@@ -31,7 +31,7 @@ A projection of the first 3 principal components also shows good separtaion of t
 
 ### Locally Linear Embedding
 
-The Locally Linear Embedding in 2D also performed quite well with one of the lowest reconstruction errors of 2.93697x10<sup>-5</sup>$.
+The Locally Linear Embedding in 2D also performed quite well with one of the lowest reconstruction errors of 2.93697x10<sup>-5</sup>.
 ![](img/LLE.png)
 
 ### Modified Locally Linear Embedding
@@ -60,7 +60,7 @@ An ensemble of 200 random trees, with maximum depth of 5.
 
 ### Spectral Embedding 
 
-![](img/Spectral.png)
+![](img/spectral.png)
 
 ## Summary 
 
