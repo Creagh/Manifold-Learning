@@ -20,3 +20,49 @@ Using a projection of the first 2 principal components, we see that there is a g
 
 A projection of the first 3 principal components also shows good separtaion of the 3 classes. Overall, these PCA techniques, even in 2 directions, perform quite well.
 ![](img/PCA3.png)
+
+### Linear Discriminant Projection
+
+![](img/LD.png)
+
+### Isomap Projection
+
+![](img/Isomap.png)
+
+### Locally Linear Embedding
+
+The Locally Linear Embedding in 2D also performed quite well with one of the lowest reconstruction errors of 2.93697x10<sup>-5</sup>$.
+![](img/LLE.png)
+
+### Modified Locally Linear Embedding
+
+The Modified Locally Linear Embedding had a reconstruction error of 0.246988.
+![](img/MLLE.png)
+
+### Hessian Locally Linear Embedding
+
+The Hessian Locally Linear Embedding had a reconstruction error of 0.108469.
+![](img/HLLE.png)
+
+### Local Tangent Space Alignment 
+
+The Local Tangent Space Alignment was nearly identical, with a reconstruction error of 0.108469.
+![](img/LTSA.png)
+
+### Multi-dimensional Scaling
+ 
+![](img/MDS.png)
+
+### Random Forest
+
+An ensemble of 200 random trees, with maximum depth of 5.
+![](img/RandomForest.png)
+
+### Spectral Embedding 
+
+![](img/Spectral.png)
+
+## Summary 
+
+Finally, a side-by-side comparison of a selection of the manifold learning techniques is shown below.
+![](img/Manifold.png)
