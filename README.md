@@ -4,7 +4,7 @@ A comparison of various manifold learning and dimensionality reduction technique
 
 ## Data
 
-I have chosen to work with the iris dataset, first used by Sir Ronald Fisher in a 1936 paper on discriminant analysis. This dataset has since been frequently used in pattern recognition literature and numerous academic papers. The data was acquired from the UCI Machine Learning Repository [here](http://archive.ics.uci.edu/ml/datasets/Iris).
+I have chosen to work with the iris dataset, first used by Sir Ronald Fisher in a 1936 paper on discriminant analysis. This dataset has since been used frequently in pattern recognition literature and numerous academic papers. The data was acquired from the UCI Machine Learning Repository [here](http://archive.ics.uci.edu/ml/datasets/Iris).
 
 The dataset contains 3 classes of 50 instances each, where each class corresponds to a specific type of iris plant. For each instance, 4 feature attributes are recorded: sepal length, sepal width, petal length, and petal width (all centimetres). The class of Iris-Setosa plants are linearly separable from the other 2 classes; however, the Iris-Versicolour and Iris-Virginica classes are not linearly separable.
  
