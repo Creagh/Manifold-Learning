@@ -10,5 +10,13 @@ The dataset contains 3 classes of 50 instances each, where each class correspond
  
 ## Analysis
 
-I begin by taking a random 2D projection of the dataset, as a sort of ``control" group for further dimensionality reduction. Even in this random 2D projection, we can already see that one cluster (upper right corner) is somewhat distinguishable from the rest of the data. Through the manifold learning techniques to follow, it will be my goal to further separate and distinguish the other 2 classes. 
+I begin by taking a random 2D projection of the dataset, as a sort of "control" group for further dimensionality reduction. Even in this random 2D projection, we can already see that one cluster (upper right corner) is somewhat distinguishable from the rest of the data. Through the manifold learning techniques to follow, it will be my goal to further separate and distinguish the other 2 classes. 
 ![](img/Random.png)
+
+### Principal Component Analysis (PCA)
+
+Using a projection of the first 2 principal components, we see that there is a good degree of separation between the Iris-Setosa (blue) and the other 2 classes. Even the other 2 classes have separated quite well and made it easier to distinguish between plant type.
+![](img/PCA2.png)
+
+A projection of the first 3 principal components also shows good separtaion of the 3 classes. Overall, these PCA techniques, even in 2 directions, perform quite well.
+![](img/PCA3.png)
