@@ -46,7 +46,7 @@ def import_data():
     attributes and a 5th column with class labels as strings.
     """
     path = dirname(__file__)
-    file = csv.reader(open(join(path, 'bezdekIris.csv'), 'rU'))
+    file = csv.reader(open(join(os.pardir, 'data/bezdekIris.csv'), 'rU'))
     data = np.empty((n_samples, n_features))
     target = np.empty((n_samples,), dtype=object)
 
